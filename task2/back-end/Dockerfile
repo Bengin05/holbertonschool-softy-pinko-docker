@@ -10,7 +10,7 @@ RUN rm /usr/lib/python*/EXTERNALLY-MANAGED
 
 RUN pip3 install flask
 
-COPY api.py/app/api.py
+COPY ./api.py /app/api.py
 
 EXPOSE 5252
 
